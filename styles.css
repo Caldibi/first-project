@@ -1,0 +1,129 @@
+#mainNav .navbar-brand {
+    color: #fff;
+}
+#mainNav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+  }
+#mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link:hover {
+    color: #1abc9c;
+}
+#mainNav .navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+}
+#mainNav .navbar-brand {
+    font-size: 1.75em;
+    transition: font-size 0.3s;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: var(--bs-navbar-nav-link-padding-x);
+    padding-left: var(--bs-navbar-nav-link-padding-x);
+}
+.px-lg-3 {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+.rounded {
+    border-radius: var(--bs-border-radius) !important;
+}
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.masthead .masthead-avatar {
+    width: 15rem;
+}
+@media (min-width: 992px) {
+    .masthead {
+      padding-top: calc(6rem + 104px);
+      padding-bottom: 6rem;
+    }
+    .masthead .masthead-heading {
+      font-size: 4rem;
+      line-height: 3.5rem;
+    }
+    .masthead .masthead-subheading {
+      font-size: 1.5rem;
+    }
+}
+.img, svg {
+    vertical-align: middle;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+@media (min-width: 992px){
+.masthead .masthead-heading {
+    font-size: 4rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+}
+}
+.masthead p{
+    font-weight: 400;
+}
+.por{
+font-weight: 700;
+}
+.page-section .page-section-heading {
+    font-size: 3rem;
+    line-height: 2.5rem;
+}
+.page-section {
+    padding: 6rem 0;
+}
+.page-section .page-section-heading {
+    font-size: 3rem;
+    line-height: 2.5rem;
+}
+.portfolio .portfolio-item {
+    /* cursor: pointer; */
+    position: relative;
+    display: block;
+    max-width: 25rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+#btn1{
+    padding: 1rem 1.75rem !important; 
+    font-size: 1.25rem !important; 
+}
+.footer {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #2c3e50;
+    color: #fff;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.small, small {
+    font-size: .875em;
+}
+.copyright {
+    background-color: #1a252f;
+}
